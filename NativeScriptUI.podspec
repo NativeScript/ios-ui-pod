@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "NativeScriptUI"
-    s.version      = "0.1.0"
+    s.version      = "0.1.1"
     s.summary      = "NativeScript empowers you to access native platform APIs from JavaScript directly. Angular, Capacitor, Ionic, React, Svelte, Vue and you name it compatible."
     s.description  = "iOS view helpers for NativeScript"
     s.homepage     = "https://nativescript.org"
