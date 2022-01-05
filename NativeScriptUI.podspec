@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.license = 'MIT'
     s.authors = { 'NativeScript Team' => 'oss@nativescript.org' }
     s.social_media_url = 'https://twitter.com/NativeScript'
-    s.source       = { :git => "https://github.com/NativeScript/ios-ui-pod.git"}
+    s.source       = { :git => "https://github.com/NativeScript/ios-ui-pod.git", :tag => s.version }
     s.vendored_frameworks = "TNSWidgets.xcframework"
     s.platform = :ios
     s.ios.deployment_target  = '12.0'
